@@ -1,11 +1,5 @@
 var FishTable = (props) => (
   <table>
-    // <tbody>
-    //   <FishTableRow />
-    //   <FishTableRow />
-    //   <FishTableRow />
-    // </tbody>
-
     {props.fishes.map( fish => 
     	<FishTableRow  fish = {fish}/>
 
